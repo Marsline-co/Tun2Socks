@@ -2,6 +2,7 @@
 #define Tun2SocksKitC_H
 
 #include <stdint.h>
+#import <Darwin/Darwin.h>
 
 #define CTLIOCGINFO 0xc0644e03UL
 
