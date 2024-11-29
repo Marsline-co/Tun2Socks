@@ -14,7 +14,10 @@ let package = Package(
   targets: [
     .target(
         name: "Tun2SocksKit",
-        dependencies: ["Tun2SocksKitC", "HevSocks5Tunnel"]
+        dependencies: ["Tun2SocksKitC", "HevSocks5Tunnel"],
+        cSettings: [
+            .headerSearchPath("../../include")
+        ]
     ),
     .target(
         name: "Tun2SocksKitC",
