@@ -21,7 +21,8 @@ let package = Package(
     ),
     .target(
         name: "Tun2SocksKitC",
-        publicHeadersPath: "."
+        path: "Sources/Tun2SocksKitC",
+        publicHeadersPath: "include" // Ensure all headers are in a single "include" folder
     ),
     .binaryTarget(
         name: "HevSocks5Tunnel",
