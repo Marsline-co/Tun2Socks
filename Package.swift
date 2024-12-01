@@ -26,7 +26,7 @@ let package = Package(
     ),
     .binaryTarget(
         name: "HevSocks5Tunnel",
-        path: "HevSocks5Tunnel/HevSocks5Tunnel.xcframework"
+        path: "./HevSocks5Tunnel/HevSocks5Tunnel.xcframework" // Ensure correct path to .xcframework
     )
   ]
 )
